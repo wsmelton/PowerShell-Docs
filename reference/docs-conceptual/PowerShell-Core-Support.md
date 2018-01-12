@@ -91,7 +91,7 @@ Add-WindowsPSModulePath
 [PowerShell Tech Community]: https://techcommunity.microsoft.com/t5/PowerShell/ct-p/WindowsPowerShell
 [assisted support]: https://support.microsoft.com/assistedsupportproducts
 [modern]: https://support.microsoft.com/help/30881/modern-lifecycle-policy
-[lifecycle-chart]: ./images/modern-lifecycle.png
+[lifecycle-chart]: images/modern-lifecycle.png
 [semi-annual]: https://docs.microsoft.com/windows-server/get-started/semi-annual-channel-overview
 [MIT license]: https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt
 [`WindowsPSModulePath`]: https://www.powershellgallery.com/packages/WindowsPSModulePath/
