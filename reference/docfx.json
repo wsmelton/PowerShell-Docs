@@ -199,8 +199,8 @@
       {
         "files": [
           "**/images/**",
-          "**/*.png",
-          "**/*.jpg"
+          "**/images/*.png",
+          "**/images/*.jpg"
         ],
         "exclude": [
           "**/obj/**",
