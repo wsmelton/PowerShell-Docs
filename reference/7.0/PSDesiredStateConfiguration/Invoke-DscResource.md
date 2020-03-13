@@ -27,7 +27,7 @@ The `Invoke-DscResource` cmdlet runs a method of a specified PowerShell Desired 
 (DSC) resource.
 
 This cmdlet invokes a DSC resource directly, without creating a configuration document.
-Using this cmdlet, configuration management products can manage windows or Linux by using DSC resources.
+Using this cmdlet, configuration management products can manage Windows or Linux by using DSC resources.
 This cmdlet also enables debugging of resources when the DSC engine is running with debugging enabled.
 
 ## EXAMPLES
@@ -146,6 +146,12 @@ Previously, Windows PowerShell 5.1 resources ran under System context unless spe
 with user context using the key **PsDscRunAsCredential**. In PowerShell 7.0, Resources run in the
 user's context, and **PsDscRunAsCredential** is no longer supported. Previous configurations using
 this key will throw an exception.
+
+As well, at this time in Powershell 7 this is an experimental feature and must be enabled via the `Enable-ExperimentalFeature` cmdlet.
+
+```powershell
+Enable-ExperimentalFeature -Name PSDesiredStateConfiguration.InvokeDscResource
+```
 
 ## RELATED LINKS
 
